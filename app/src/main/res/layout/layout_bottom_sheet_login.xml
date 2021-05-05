@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomSheetContainerLogin"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bottom_sheet_background_login"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/log_in"
+        android:textSize="26sp"
+        android:textColor="@color/main_color"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/user_name_log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username_email"
+            android:textColorHint="@color/main_color"
+            android:textSize="20sp"
+            android:textColor="@color/main_color"
+            android:drawableLeft="@drawable/ic_person_purple"
+            android:drawableStart="@drawable/ic_person_purple"
+            android:drawablePadding="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginEnd="10sp"
+            android:backgroundTint="@color/main_color"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/password_log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginRight="10sp"
+            android:drawableStart="@drawable/ic_lock_purple"
+            android:drawableLeft="@drawable/ic_lock_purple"
+            android:drawablePadding="10sp"
+            android:hint="@string/password"
+            android:textColorHint="@color/main_color"
+            android:textColorLink="@color/main_color"
+            android:textColor="@color/main_color"
+            android:textSize="20sp"
+            android:backgroundTint="@color/main_color"
+            android:inputType="textPassword" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="400sp"
+            android:id="@+id/login_button"
+            android:gravity="center"
+            android:foregroundGravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/log_in"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/main_color"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
