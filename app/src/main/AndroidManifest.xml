@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.final_project">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/logo_vividly_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_vividly_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Final_project">
+
+        <activity android:name=".Discover.DiscoverActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Tab.TabLayoutController"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Register2"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".LogIn"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Register"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainPage.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.final_project.Tab."
+            android:label="@string/title_activity_maps">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+    </application>
+
+</manifest>

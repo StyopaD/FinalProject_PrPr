@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Vividly</string>
+    <string name="register">Register</string>
+    <string name="log">Log in</string>
+    <string name="next">Next</string>
+    <string name="done">Done</string>
+    <string name="start">Get Started!</string>
+    <string name="text_label_1">Home</string>
+    <string name="text_label_2">Search</string>
+    <string name="text_label_3">Add</string>
+    <string name="text_label_4">Chat</string>
+    <string name="text_label_5">Profile</string>
+    <string name="register_card">REGISTER</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="password">Password</string>
+    <string name="checkEmail"><![CDATA[^[a-zA-Z0-9_+&*-]+(?:\\.[a-zA-Z0-9_+&*-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,7}$]]></string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Log In</string>
+    <string name="username_email">Username / Email</string>
+    <string name="discover">Discover</string>
+    <string name="what_are_your_interests_choose_5">What are your interests? Choose 5!</string>
+
+    <string name="title_activity_maps">Map</string>
+</resources>
